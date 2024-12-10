@@ -36,6 +36,8 @@ const PostPage = () => {
             if (response.ok) {
                 // Handle successful post creation
                 alert("Post created successfully!");
+                setCaption('');
+                setDescription('');
                 console.log(data);
             } else {
                 // Handle errors

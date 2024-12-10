@@ -71,7 +71,7 @@ const Login = () => {
             alert('Login successfully')
             setEmail('')
             setPassword('')
-            navigate("/signup");
+            navigate("/show-posts");
         } catch (err) {
             setError(err.message);
             setMessage("");
